@@ -19,7 +19,7 @@ import {
     {
       icon: RxPencil2,
       title: "Branding",
-      content: "Lorem ipsum dolor sit amet, condsfhuofhsudgfsugdifuiughdfsougheofgdfohgodifhgdfugohdfgdfoiugihdfgdofuhvfgohdfgohdfgsectetur adipiscing elit. Nulla sit amet orci et eros facilisis sollicitudin vitae sit amet elit. Sed eget placerat augue. Mauris tristique lectus molestie velit efficitur molestie. Phasellus ullamcorper erat a lorem faucibus aliquam. Cras in sem sit amet nulla mattis congue. Nam a sem ac.",
+      content: "Lorem ipsum dolor sit amet, condsectetur adipiscing elit. Nulla sit amet orci et eros facilisis sollicitudin vitae sit amet elit. Sed eget placerat augue. Mauris tristique lectus molestie velit efficitur molestie. Phasellus ullamcorper erat a lorem faucibus aliquam. Cras in sem sit amet nulla mattis congue. Nam a sem ac.",
       
     },
     {

@@ -12,6 +12,7 @@ import acc from '../assets/acc.png'
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import '../styles/Card.css'
+import BasicModal from './Modal';
 
 
 function Home() {
@@ -57,7 +58,7 @@ function Home() {
               <p className="mb-4  text-black font-normal "><span className='text-black font-semibold'>Location:</span> Banglore (Hybrid)</p>
               </div>
               <button className="my-5 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                  Apply Now
+                  <BasicModal/>
                    
               </button>
           </div>
