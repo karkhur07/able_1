@@ -46,11 +46,11 @@ function Home() {
       
 
       <div className=" h-[60vh] flex flex-col justify-center items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
-          <a href="#">
+          <a href="/">
               <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
           </a>
           <div className=" flex flex-col items-center ustify-center p-5">
-              <a href="#">
+              <a href="/">
                   <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Accenture</h5>
               </a><div>
               <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'>Stipend:</span>  ₹4000</p>
@@ -71,11 +71,11 @@ function Home() {
       
 
       <div className=" h-[60vh] flex flex-col justify-center items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
-          <a href="#">
+          <a href="/">
               <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
           </a>
           <div className=" flex flex-col items-center ustify-center p-5">
-              <a href="#">
+              <a href="/">
                   <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Accenture</h5>
               </a><div>
               <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'>Stipend:</span>  ₹4000</p>
@@ -83,7 +83,7 @@ function Home() {
               <p className="mb-4  text-black font-normal "><span className='text-black font-semibold'>Location:</span> Banglore (Hybrid)</p>
               </div>
               <button className="my-5 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                  Apply Now
+                  <BasicModal/>
                    
               </button>
           </div>
@@ -96,11 +96,11 @@ function Home() {
       
 
       <div className="h-[60vh] flex flex-col justify-center items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
-          <a href="#">
+          <a href="/">
               <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
           </a>
           <div className=" flex flex-col items-center ustify-center p-5">
-              <a href="#">
+              <a href="/">
                   <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Accenture</h5>
               </a><div>
               <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'>Stipend:</span>  ₹4000</p>
@@ -108,7 +108,7 @@ function Home() {
               <p className="mb-4  text-black font-normal "><span className='text-black font-semibold'>Location:</span> Banglore (Hybrid)</p>
               </div>
               <button className="my-5 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                  Apply Now
+                  <BasicModal/>
                    
               </button>
           </div>
@@ -121,11 +121,11 @@ function Home() {
       
 
       <div className="h-[60vh] flex flex-col justify-center items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
-          <a href="#">
+          <a href="/">
               <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
           </a>
           <div className=" flex flex-col items-center ustify-center p-5">
-              <a href="#">
+              <a href="/">
                   <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Accenture</h5>
               </a><div>
               <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'>Stipend:</span>  ₹4000</p>
@@ -133,7 +133,7 @@ function Home() {
               <p className="mb-4  text-black font-normal "><span className='text-black font-semibold'>Location:</span> Banglore (Hybrid)</p>
               </div>
               <button className="my-5 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                  Apply Now
+                  <BasicModal/>
                    
               </button>
           </div>
@@ -146,11 +146,11 @@ function Home() {
       
 
       <div className="h-[60vh] flex flex-col justify-center items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
-          <a href="#">
+          <a href="/">
               <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
           </a>
           <div className=" flex flex-col items-center ustify-center p-5">
-              <a href="#">
+              <a href="/">
                   <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Accenture</h5>
               </a><div>
               <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'>Stipend:</span>  ₹4000</p>
@@ -158,7 +158,7 @@ function Home() {
               <p className="mb-4  text-black font-normal "><span className='text-black font-semibold'>Location:</span> Banglore (Hybrid)</p>
               </div>
               <button className="my-5 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                  Apply Now
+                  <BasicModal/>
                    
               </button>
           </div>
@@ -171,11 +171,11 @@ function Home() {
       
 
       <div className="h-[60vh] flex flex-col justify-center items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
-          <a href="#">
+          <a href="/">
               <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
           </a>
           <div className=" flex flex-col items-center ustify-center p-5">
-              <a href="#">
+              <a href="/">
                   <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Accenture</h5>
               </a><div>
               <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'>Stipend:</span>  ₹4000</p>
@@ -183,7 +183,7 @@ function Home() {
               <p className="mb-4  text-black font-normal "><span className='text-black font-semibold'>Location:</span> Banglore (Hybrid)</p>
               </div>
               <button className="my-5 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                  Apply Now
+                  <BasicModal/>
                    
               </button>
           </div>
@@ -196,11 +196,11 @@ function Home() {
       
 
       <div className="h-[60vh] flex flex-col justify-center items-center max-w-sm bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
-          <a href="#">
+          <a href="/">
               <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
           </a>
           <div className=" flex flex-col items-center ustify-center p-5">
-              <a href="#">
+              <a href="/">
                   <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Accenture</h5>
               </a><div>
               <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'>Stipend:</span>  ₹4000</p>
@@ -208,7 +208,7 @@ function Home() {
               <p className="mb-4  text-black font-normal "><span className='text-black font-semibold'>Location:</span> Banglore (Hybrid)</p>
               </div>
               <button className="my-5 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
-                  Apply Now
+                  <BasicModal/>
                    
               </button>
           </div>

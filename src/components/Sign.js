@@ -1,5 +1,5 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Sign = () => {
   return (
@@ -40,7 +40,7 @@ const Sign = () => {
             </form>
           </div>
           <div class="md:h-full max-md:mt-10 bg-[#000842] rounded-xl lg:p-12 p-8">
-            <img src="https://readymadeui.com/signin-image.webp" class="w-full h-full object-contain" alt="login-image" />
+            <img src="https://readymadeui.com/signin-image.webp" class="w-full h-full object-contain" alt="" />
           </div>
         </div>
       </div>

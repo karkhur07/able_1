@@ -1,25 +1,23 @@
 import "./App.css";
-import Modal from "./components/Modal.js";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
-import Testi from "./components/Testi";
-import Home from "./components/Home.js";
-import Company from "./components/Company.js";
-import Stats from "./components/Stats.js";
-
-import Heading from "./components/Heading.js";
-import Heading1 from './components/Heading1.js'
-// import Sign from "./components/Sign.js";
+import Home1 from "./components/Home1.js";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Sign from "./components/Sign.js";
-import Faq from "./components/Faq.js";
+import About from "./components/About.js";
+import Interns from "./components/Interns.js";
+import Contact from "./components/Contact.js";
+
 
 function App() {
   return (
     <>
       <div className="bg-[#f6f6f7]">
-        <Navbar />
-        <Heading1 head="ABLING YOU TO ENDLESS POSSIBILITIES" />
-        <Home /><Stats />
+  
+         <BrowserRouter>
+         <Navbar />
+        {/* <Heading1 head="ABLING YOU TO ENDLESS POSSIBILITIES" />
+        <Home /> 
+        <Stats />
         <Heading head="TESTIMONIALS" />
         <Testi />
         <Heading head="COMPANIES WITH US" />
@@ -28,10 +26,15 @@ function App() {
         <Faq/>
         <Heading head="SUBSCRIBE" />
         <Footer />         
-         <Sign />
-         <Modal/>
-  
-        
+         <Modal/> */}
+      <Routes>
+      <Route path="/" element={<Home1 />}/>
+        <Route path="/about" element={<About />}/>
+        <Route path="/login" element={<Sign/>}/>
+        <Route path="/interns" element={<Interns/>}/>
+        <Route path="/contact" element={<Contact/>}/>
+      </Routes>
+    </BrowserRouter>
         
       </div>
     </>
