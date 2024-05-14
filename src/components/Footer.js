@@ -4,7 +4,7 @@
     const Footer = () => {
       return (
        <>
-       <div className='flex justify-center my-10'>
+       <div className='flex justify-center my-10 mb-20 mt-16'>
 <form className='w-96 '>   
     <label for="search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
     <div className="relative">
@@ -14,14 +14,54 @@
     </div>
 </form>
 </div>
-
-
-<footer className=" bg-white dark:bg-[/424242]">
-    <div className="mx-auto w-full max-w-screen-xl">
+<footer className="bg-[#272727]">
+    <div className="m-8 mt-6 pt-8 text-3xl text-white font-medium">
+        <h1 className='mx-20 text-4xl'>Follow Us For  Updates</h1>
+    </div>
+    <div>
+      <div class="bg-[#272727] px-6 py-20 font-[sans-serif] text-white">
+      <div class="grid lg:grid-cols-4 sm:grid-cols-2 gap-x-6 gap-y-10 max-w-7xl mx-auto">
+        <div class="flex items-center gap-6">
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/768px-Facebook_f_logo_%282021%29.svg.png?20210818083032" alt="" />
+          <div>
+            <h1 class="text-xl font-semibold mt-5">Facebook</h1>
+            <p class="text-gray-300 font-semibold mt-2">Able India</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-6">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/198px-Instagram_logo_2016.svg.png?20210403190622" alt="" />
+          <div>
+            <h3 class="text-xl font-semibold mt-5">Instagram</h3>
+            <p class="text-gray-300 font-semibold mt-2">_.able_</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-6">
+          <img src="https://images.freeimages.com/image/large-previews/9fe/x-twitter-light-grey-logo-5694251.png" alt="" />
+          <div>
+            <h3 class="text-xl font-semibold mt-5">X</h3>
+            <p class="text-gray-300 font-semibold mt-2">able</p>
+          </div>
+        </div>
+        <div class="flex items-center gap-6">
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpf-kE5sRHkR7UBUuskYMSQytRvJSQJ8tVDzQaZSb_hg&s" alt="" />
+          <div>
+            <h3 class="text-xl font-semibold mt-5">LinkedIn</h3>
+            <p class="text-gray-300 font-semibold mt-2"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+    <hr className='m-12'/>
+    <div className="mx-auto w-full max-w-screen-2xl">
       <div className=" flex justify-around px-4 py-6 lg:py-10 ">
         <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Company</h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
+        <a href="/" id="brand" className="">
+            <img className=' w-36' src="data:image/png;base64,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" alt="" srcset="" />
+           </a>
+        </div>
+        <div>
+            <ul className="text-xl text-white font-medium">
                 <li className="mb-4">
                     <a href="/" className=" hover:underline">Home</a>
                 </li>
@@ -37,48 +77,10 @@
             </ul>
         </div>
         <div>
-            <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">Help center</h2>
-            <ul className="text-gray-500 dark:text-gray-400 font-medium">
-                <li className="mb-4">
-                    <a href="/" className="hover:underline">Privacy Policy</a>
-                </li>
+            <ul className="text-white text-xl font-medium">
                 <li className="mb-4">
                     <a href="/" className="hover:underline">Terms & Conditions</a>
                 </li>
-                <li className="mb-4">
-                    <a href="/" className="hover:underline">Connect with us on</a>
-                </li>
-                <li className=' flex mb-4'>
-                <a href="/" className="text-gray-500 hover:text-gray-900 dark:hover:text-white">
-                  <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 8 19">
-                        <path fill-rule="evenodd" d="M6.135 3H8V0H6.135a4.147 4.147 0 0 0-4.142 4.142V6H0v3h2v9.938h3V9h2.021l.592-3H5V3.591A.6.6 0 0 1 5.592 3h.543Z" clip-rule="evenodd"/>
-                    </svg>
-                  <span className="sr-only">Facebook page</span>
-              </a>
-              <a href="/" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
-                  <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 21 16">
-                        <path d="M16.942 1.556a16.3 16.3 0 0 0-4.126-1.3 12.04 12.04 0 0 0-.529 1.1 15.175 15.175 0 0 0-4.573 0 11.585 11.585 0 0 0-.535-1.1 16.274 16.274 0 0 0-4.129 1.3A17.392 17.392 0 0 0 .182 13.218a15.785 15.785 0 0 0 4.963 2.521c.41-.564.773-1.16 1.084-1.785a10.63 10.63 0 0 1-1.706-.83c.143-.106.283-.217.418-.33a11.664 11.664 0 0 0 10.118 0c.137.113.277.224.418.33-.544.328-1.116.606-1.71.832a12.52 12.52 0 0 0 1.084 1.785 16.46 16.46 0 0 0 5.064-2.595 17.286 17.286 0 0 0-2.973-11.59ZM6.678 10.813a1.941 1.941 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.919 1.919 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Zm6.644 0a1.94 1.94 0 0 1-1.8-2.045 1.93 1.93 0 0 1 1.8-2.047 1.918 1.918 0 0 1 1.8 2.047 1.93 1.93 0 0 1-1.8 2.045Z"/>
-                    </svg>
-                  <span className="sr-only">Discord community</span>
-              </a>
-              <a href="/" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
-                  <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 17">
-                    <path fill-rule="evenodd" d="M20 1.892a8.178 8.178 0 0 1-2.355.635 4.074 4.074 0 0 0 1.8-2.235 8.344 8.344 0 0 1-2.605.98A4.13 4.13 0 0 0 13.85 0a4.068 4.068 0 0 0-4.1 4.038 4 4 0 0 0 .105.919A11.705 11.705 0 0 1 1.4.734a4.006 4.006 0 0 0 1.268 5.392 4.165 4.165 0 0 1-1.859-.5v.05A4.057 4.057 0 0 0 4.1 9.635a4.19 4.19 0 0 1-1.856.07 4.108 4.108 0 0 0 3.831 2.807A8.36 8.36 0 0 1 0 14.184 11.732 11.732 0 0 0 6.291 16 11.502 11.502 0 0 0 17.964 4.5c0-.177 0-.35-.012-.523A8.143 8.143 0 0 0 20 1.892Z" clip-rule="evenodd"/>
-                </svg>
-                  <span className="sr-only">Twitter page</span>
-              </a>
-              <a href="/" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
-                  <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                        <path fill-rule="evenodd" d="M10 .333A9.911 9.911 0 0 0 6.866 19.65c.5.092.678-.215.678-.477 0-.237-.01-1.017-.014-1.845-2.757.6-3.338-1.169-3.338-1.169a2.627 2.627 0 0 0-1.1-1.451c-.9-.615.07-.6.07-.6a2.084 2.084 0 0 1 1.518 1.021 2.11 2.11 0 0 0 2.884.823c.044-.503.268-.973.63-1.325-2.2-.25-4.516-1.1-4.516-4.9A3.832 3.832 0 0 1 4.7 7.068a3.56 3.56 0 0 1 .095-2.623s.832-.266 2.726 1.016a9.409 9.409 0 0 1 4.962 0c1.89-1.282 2.717-1.016 2.717-1.016.366.83.402 1.768.1 2.623a3.827 3.827 0 0 1 1.02 2.659c0 3.807-2.319 4.644-4.525 4.889a2.366 2.366 0 0 1 .673 1.834c0 1.326-.012 2.394-.012 2.72 0 .263.18.572.681.475A9.911 9.911 0 0 0 10 .333Z" clip-rule="evenodd"/>
-                  </svg>
-                  <span className="sr-only">GitHub account</span>
-              </a>
-              <a href="/" className="text-gray-500 hover:text-gray-900 dark:hover:text-white ms-5">
-                  <svg className="w-4 h-4" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 20">
-                    <path fill-rule="evenodd" d="M10 0a10 10 0 1 0 10 10A10.009 10.009 0 0 0 10 0Zm6.613 4.614a8.523 8.523 0 0 1 1.93 5.32 20.094 20.094 0 0 0-5.949-.274c-.059-.149-.122-.292-.184-.441a23.879 23.879 0 0 0-.566-1.239 11.41 11.41 0 0 0 4.769-3.366ZM8 1.707a8.821 8.821 0 0 1 2-.238 8.5 8.5 0 0 1 5.664 2.152 9.608 9.608 0 0 1-4.476 3.087A45.758 45.758 0 0 0 8 1.707ZM1.642 8.262a8.57 8.57 0 0 1 4.73-5.981A53.998 53.998 0 0 1 9.54 7.222a32.078 32.078 0 0 1-7.9 1.04h.002Zm2.01 7.46a8.51 8.51 0 0 1-2.2-5.707v-.262a31.64 31.64 0 0 0 8.777-1.219c.243.477.477.964.692 1.449-.114.032-.227.067-.336.1a13.569 13.569 0 0 0-6.942 5.636l.009.003ZM10 18.556a8.508 8.508 0 0 1-5.243-1.8 11.717 11.717 0 0 1 6.7-5.332.509.509 0 0 1 .055-.02 35.65 35.65 0 0 1 1.819 6.476 8.476 8.476 0 0 1-3.331.676Zm4.772-1.462A37.232 37.232 0 0 0 13.113 11a12.513 12.513 0 0 1 5.321.364 8.56 8.56 0 0 1-3.66 5.73h-.002Z" clip-rule="evenodd"/>
-                </svg>
-                  <span className="sr-only">Dribbble account</span>
-              </a></li>
             </ul>
         </div>
         

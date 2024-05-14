@@ -8,8 +8,8 @@ import google from '../assets/google.png'
 const Company = () => {
     
   return (
-    <div className=' py-10 my-20 flex justify-center'>
-    <div className='max-w-[70%] '>
+    <div className='h-48 py-10 my-20 flex justify-center bg-black'>
+    <div className='my-6 max-w-[70%] '>
         
 
       <Marquee  className=''>
