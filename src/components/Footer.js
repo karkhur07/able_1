@@ -22,28 +22,28 @@
       <div class="bg-[#272727] px-6 py-20 font-[sans-serif] text-white">
       <div class="grid lg:grid-cols-4 sm:grid-cols-2 gap-x-6 gap-y-10 max-w-7xl mx-auto">
         <div class="flex items-center gap-6">
-          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/768px-Facebook_f_logo_%282021%29.svg.png?20210818083032" alt="" />
+          <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/768px-Facebook_f_logo_%282021%29.svg.png?20210818083032" alt="" width={50}/>
           <div>
             <h1 class="text-xl font-semibold mt-5">Facebook</h1>
             <p class="text-gray-300 font-semibold mt-2">Able India</p>
           </div>
         </div>
         <div class="flex items-center gap-6">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/198px-Instagram_logo_2016.svg.png?20210403190622" alt="" />
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/198px-Instagram_logo_2016.svg.png?20210403190622" alt="" width={50}/>
           <div>
             <h3 class="text-xl font-semibold mt-5">Instagram</h3>
             <p class="text-gray-300 font-semibold mt-2">_.able_</p>
           </div>
         </div>
         <div class="flex items-center gap-6">
-          <img src="https://images.freeimages.com/image/large-previews/9fe/x-twitter-light-grey-logo-5694251.png" alt="" />
+          <img src="https://images.freeimages.com/image/large-previews/9fe/x-twitter-light-grey-logo-5694251.png" alt="" width={80}/>
           <div>
             <h3 class="text-xl font-semibold mt-5">X</h3>
             <p class="text-gray-300 font-semibold mt-2">able</p>
           </div>
         </div>
         <div class="flex items-center gap-6">
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpf-kE5sRHkR7UBUuskYMSQytRvJSQJ8tVDzQaZSb_hg&s" alt="" />
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpf-kE5sRHkR7UBUuskYMSQytRvJSQJ8tVDzQaZSb_hg&s" alt="" width={70}/>
           <div>
             <h3 class="text-xl font-semibold mt-5">LinkedIn</h3>
             <p class="text-gray-300 font-semibold mt-2"></p>

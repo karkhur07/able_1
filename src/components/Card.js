@@ -9,7 +9,8 @@ import acc from '../assets/acc.png'
 
 export default function MediaCard() {
   return (
-    <Card style={{ maxWidth: 5000, height: 650}}>
+    <>
+    <div className='bg-white max-w-6xl rounded'>
       <CardMedia/>
       <div className='flex'>
              <img className="w-20 m-6 mb-3 rounded-t-lg shadow p-3 mb-5 bg-gray rounded" src={acc} alt=""/><b className='mt-12 text-xl'>ACCENTURE</b>
@@ -20,13 +21,13 @@ export default function MediaCard() {
         </Typography>
       </CardContent>
       <CardActions>
-      <div class="flex justify-center m-12">
-                <button type="button" class="w-32 shadow-xl py-2.5 px-4 text-sm font-semibold rounded text-white bg-black hover:bg-black-700 focus:outline-none">
+      <div className="flex justify-center ml-64 mb-6">
+                <button type="button" className="w-32 shadow-xl py-2.5 px-4 text-sm font-semibold rounded text-white bg-black hover:bg-black-700 focus:outline-none">
                   Apply Now
                 </button>
               </div>
       </CardActions>
-    </Card>
+    </div></>
   );
 }
 
