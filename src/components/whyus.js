@@ -12,7 +12,8 @@ import { ServiceData } from "./constant";
 
 const Whyus = () => {
   return (
-    <div className="relative flex items-center justify-center flex-col h-[60vh] bg-black mt-12">
+    <div className="relative flex items-center justify-center flex-col h-[80vh] bg-black mt-12">
+      <h1 className="text-5xl text-white mt-12">WHY US ?</h1>
       <Swiper
         breakpoints={{
           340: {

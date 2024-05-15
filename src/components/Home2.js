@@ -7,15 +7,17 @@ import Whyus from './whyus.js';
 import Footer from './Footer.js';
 import Faq from './Faq.js';
 import Able from './Able.js';
+import Team from './Team.js';
+import Feedback from './Feedback.js';
 
 const Home2 = () => {
   return (
     <div>
         <Able/>
         <Step/>
-        <Heading head="WHY US ?"/>
         <Whyus/>
         <Stats/>
+        <Feedback/>
         <Heading head="OUR USERS TELLING THEIR STORIES"/>
       <Stories/>
       <Heading head="FAQ'S" />

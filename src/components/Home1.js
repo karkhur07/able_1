@@ -13,7 +13,6 @@ import Heading1 from './Heading1.js'
 import Faq from "./Faq.js";
 import Community from './Community.js';
 import Hire from './Hire.js';
-import Cell from './Cell.js';
 
 const Home_1 = () => {
   return (
@@ -22,13 +21,11 @@ const Home_1 = () => {
         <Home /> 
         <Stats />
         <Hire/>
-        <Heading head="COMPANIES WITH ABLE"/>
         <Company />
         <Heading head="#InternshipZaruriHai"/>
         <Slogan/>
         <Heading head="JOIN THE COMMUNITY"/>
         <Community/>
-        <Cell/>
         <Heading head="TESTIMONIALS" />
         <Testi />
         <Heading head="FAQ'S" />

@@ -3,7 +3,7 @@ import React from 'react'
 const Faq = () => {
   return (
     <>
-    <div className='bg-[#F7F6F6] mb-20'>
+    <div className='bg-white mb-20'>
 
     <div className='  justify-center grid lg:grid-cols-3 gap-8 sm:px-24 px-4 py-16 font-[sans-serif] text-[#333]'>
         
