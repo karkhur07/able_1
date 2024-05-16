@@ -26,7 +26,7 @@ const Feedback = () => {
                     modules={[Autoplay, Pagination]}
                     className="mySwiper  h-[40vh]"
                 >
-                    <SwiperSlide className='h-96'><div className=" p-4 flex bg-[#ECECEC] rounded">
+                    <SwiperSlide className='h-96'><div className=" p-4 flex bg-[#ECECEC] rounded ">
                         <img src={google} alt="" className='w-8 h-8 mr-4'/>
                         <div>
                             <h3 class="text-xl font-semibold mb-2">Adish Jain, CEO</h3>

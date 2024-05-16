@@ -3,7 +3,6 @@ import Home from './Home.js';
 import Footer from "./Footer.js";
 import Testi from "./Testi.js";
 import Slogan from "./Slogan.js"
-
 import Company from "./Company.js";
 import Stats from "./Stats.js";
 
@@ -16,10 +15,10 @@ import Hire from './Hire.js';
 
 const Home_1 = () => {
   return (
-    <div>
+    <div className=''>
       <Heading1 head="ABLING YOU TO ENDLESS POSSIBILITIES" />
         <Home /> 
-        <Stats />
+        <Stats/>
         <Hire/>
         <Company />
         <Heading head="#InternshipZaruriHai"/>

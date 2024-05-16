@@ -17,7 +17,7 @@ import BasicModal from './Modal';
 
 function Home() {
   return (
-    <div className="container">
+    <div className="container sm:h-[100vh] h-[70vh] sm:w-[70vw] w-[70vw]">
       
       
       <Swiper
@@ -45,7 +45,7 @@ function Home() {
         <div className='w-96' >
       
 
-      <div className=" h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
+      <div className=" sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
           <a href="/">
               <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
           </a>
@@ -70,7 +70,7 @@ function Home() {
         <div className='w-96' >
       
 
-      <div className=" h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
+      <div className=" sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
           <a href="/">
               <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
           </a>
@@ -95,7 +95,7 @@ function Home() {
         <div className='w-96' >
       
 
-      <div className="h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
+      <div className="sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
           <a href="/">
               <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
           </a>
@@ -120,7 +120,7 @@ function Home() {
         <div className='w-96' >
       
 
-      <div className="h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
+      <div className="sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
           <a href="/">
               <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
           </a>
@@ -145,7 +145,7 @@ function Home() {
         <div className='w-96' >
       
 
-      <div className="h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
+      <div className="sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
           <a href="/">
               <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
           </a>
@@ -170,7 +170,7 @@ function Home() {
         <div className='w-96' >
       
 
-      <div className="h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
+      <div className="sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
           <a href="/">
               <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
           </a>
@@ -195,7 +195,7 @@ function Home() {
         <div className='w-96' >
       
 
-      <div className="h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
+      <div className="sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
           <a href="/">
               <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
           </a>

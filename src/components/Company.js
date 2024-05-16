@@ -8,19 +8,19 @@ import google from '../assets/google.png'
 const Company = () => {
     
   return (
-    <div className='text-white bg-black'>
-      <h1 className="text-center text-3xl max-sm:text-3xl font-bold leading-tight mt-32 mb-12 py-12">COMPANIES WITH ABLE</h1>
-    <div className='h-48 py-10 my-20 flex justify-center bg-black'>
+    <div className='text-white bg-black snap-start'>
+      <h1 className="text-center text-3xl max-sm:text-3xl font-bold leading-tight py-12">COMPANIES WITH ABLE</h1>
+    <div className='h-48 pb-24 my-20 flex justify-center bg-black'>
       
     <div className='my-6 max-w-[70%] '>
         
 
       <Marquee  className=''>
-       <div className='flex gap-20'>
-        <img src={acc} alt="acc" width={90}/>
-      <img src={amazon} alt="" width={90}/> 
-       <img src={fb} alt="" width={90}/>
-        <img src={google} alt=""width={90} /></div>
+       <div className='flex sm:gap-20 gap-16'>
+        <img src={acc} alt="acc" className='sm:w-24 w-16'/>
+      <img src={amazon} alt="" className='sm:w-24 w-16'/> 
+       <img src={fb} alt="" className='sm:w-24 w-16'/>
+        <img src={google} alt=""className='sm:w-24 w-16' /></div>
       </Marquee>
     </div></div>
     </div>

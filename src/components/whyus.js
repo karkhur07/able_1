@@ -1,68 +1,63 @@
-import { Swiper, SwiperSlide } from "swiper/react";
+import React from 'react'
 
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/free-mode";
-
-
-import { Autoplay,FreeMode, Pagination } from "swiper/modules";
-
-
-import { ServiceData } from "./constant";
-
-const Whyus = () => {
+const whyus = () => {
   return (
-    <div className="relative flex items-center justify-center flex-col h-[80vh] bg-black mt-12">
-      <h1 className="text-5xl text-white mt-12">WHY US ?</h1>
-      <Swiper
-        breakpoints={{
-          340: {
-            slidesPerView: 2,
-            spaceBetween: 30,
-          },
-          700: {
-            slidesPerView: 3,
-            spaceBetween: 30,
-          },
-        }}
-        centeredSlides={true}
-        loop={true}
-        freeMode={true}
-        // pagination={{
-        //   clickable: true,
-        // }}
-        speed={2000}
-        autoplay={{
-            delay:1000,
-            disableOnInteraction:false
+    <>
+    <div className="mt-6 mb-12 font-[sans-serif]">
+            <div className=" text-center max-w-3xl mx-auto mb-12 ">
+                <h2 className="text-5xl font-bold">WHY US ?</h2>
+            </div>
+            <div className="justify-center grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+            <div className=''>
+      <div className='group h-96 w-80 [perspective:1000px]'>
+        <div className='relative h-full w-full rounded-xl shadow-xl [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] [backface-visibility:hidden] transition-all duration-1000'>
+            <div className='absolute inset-0 text-center mt-32'>
+                <h1>Why us</h1>
+            </div>
+            <div className='absolute inset-0 h-full w-full rounded-xl px-12 text-center bg- text-black [transform:rotateY(180deg)] [backface-visibility:hidden]'>
+                <div className='flex min-h-full flex-col items-center justify-center'>
+                    <h1>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Distinctio in placeat nemo esse dicta doloribus ab saepe voluptates obcaecati, impedit delectus. Illum libero, a quae nulla voluptatem sint ab quasi!</h1>
+                </div>
 
-        }}
-        modules={[Autoplay, FreeMode, Pagination]}
-        className="max-w-[80%] lg:max-w-[80%]"
-      >
-        {ServiceData.map((item) => (
-          <SwiperSlide key={item.title}>
-
-
-
-
-
-
-<a href="/" class="mt-20 mb-12 h-96 text-black block max-w-sm  sm p-6 bg-white border border-gray-100 shadow-xl rounded-lg hover:bg-gray-100 ">
-<p className="mt-1 text-xs sm:text-lg font-normal text-gray-500 ">{item.content}</p>
-<h5 className="mt-3 text-black text-lg sm:text-2xl font-semibold tracking-tight text-dark:text-white">{item.title}</h5>
-<p className="font-normal text-xs sm:text-lg text-gray-700 dark:text-gray-400">Founder</p>
-
-</a>
-
-
-
-            
-          </SwiperSlide>
-        ))}
-      </Swiper>
+            </div>
+        </div>
+      </div>
     </div>
-  );
-};
+    <div className=''>
+      <div className='group h-96 w-80 [perspective:1000px]'>
+        <div className='relative h-full w-full rounded-xl shadow-xl [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] [backface-visibility:hidden] transition-all duration-1000'>
+            <div className='absolute inset-0 text-center mt-32'>
+                <h1>Why us</h1>
+            </div>
+            <div className='absolute inset-0 h-full w-full rounded-xl px-12 text-center bg- text-black [transform:rotateY(180deg)] [backface-visibility:hidden]'>
+                <div className='flex min-h-full flex-col items-center justify-center'>
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eligendi quaerat, temporibus esse autem excepturi quam numquam nemo, vel, necessitatibus voluptate exercitationem quia officia consequuntur doloribus quasi tempora. Consectetur, veniam ducimus?</h1>
+                </div>
 
-export default Whyus;
+            </div>
+        </div>
+      </div>
+    </div>
+    <div className=''>
+      <div className='group h-96 w-80 [perspective:1000px]'>
+        <div className='relative h-full w-full rounded-xl shadow-xl [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] [backface-visibility:hidden] transition-all duration-1000'>
+            <div className='absolute inset-0 text-center mt-32'>
+                <h1>Why us</h1>
+            </div>
+            <div className='absolute inset-0 h-full w-full rounded-xl px-12 text-center bg- text-black [transform:rotateY(180deg)] [backface-visibility:hidden]'>
+                <div className='flex min-h-full flex-col items-center justify-center'>
+                    <h1>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloremque vitae inventore, ducimus nam, voluptatibus aspernatur expedita debitis ullam quo perspiciatis a quaerat! Fugiat similique maxime harum quia libero nesciunt natus!
+                    </h1>
+                </div>
+
+            </div>
+        </div>
+      </div>
+    </div>
+            </div>
+        </div>
+        </>
+  )
+}
+
+export default whyus

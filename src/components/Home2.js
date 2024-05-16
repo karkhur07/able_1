@@ -6,14 +6,12 @@ import Stats from './Stats.js';
 import Whyus from './whyus.js';
 import Footer from './Footer.js';
 import Faq from './Faq.js';
-import Able from './Able.js';
-import Team from './Team.js';
+// import Able from './Able.js';
 import Feedback from './Feedback.js';
 
 const Home2 = () => {
   return (
     <div>
-        <Able/>
         <Step/>
         <Whyus/>
         <Stats/>

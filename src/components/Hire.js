@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Hire = () => {
   return (
-    <div className=''style={{marginBottom:'100px'}}>
+    <div className='px-4 snap-start'style={{marginBottom:'100px'}}>
       <h1 className="text-center text-3xl max-sm:text-3xl font-bold leading-tight mt-32 mb-12 py-12">FIND YOUR PERFECT MATCH WITH US</h1>
     <div className='flex justify-center'>
       

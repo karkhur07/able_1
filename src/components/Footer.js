@@ -5,7 +5,7 @@
       return (
        <>
        <div className='flex justify-center my-10 mb-20 mt-16'>
-<form className='w-96 '>   
+<form className='sm:w-1/2 w-96'>   
     <label for="search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
     <div className="relative">
        
@@ -15,37 +15,37 @@
 </form>
 </div>
 <footer className="bg-[#272727]">
-    <div className="m-8 mt-6 pt-8 text-3xl text-white font-medium">
-        <h1 className='mx-20 text-4xl'>Follow Us For  Updates</h1>
+    <div className="pl-4 mt-6 pt-8 text-white font-medium">
+        <h1 className='sm:text-4xl text-2xl'>Follow Us For  Updates</h1>
     </div>
     <div>
       <div class="bg-[#272727] px-6 py-20 font-[sans-serif] text-white">
-      <div class="grid lg:grid-cols-4 sm:grid-cols-2 gap-x-6 gap-y-10 max-w-7xl mx-auto">
+      <div class="grid sm:grid-cols-4 grid-cols-2 gap-x-6 gap-y-10 max-w-7xl mx-auto">
         <div class="flex items-center gap-6">
           <img src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/768px-Facebook_f_logo_%282021%29.svg.png?20210818083032" alt="" width={50}/>
           <div>
-            <h1 class="text-xl font-semibold mt-5">Facebook</h1>
+            <h1 class="text-xl font-semibold mt-3">Facebook</h1>
             <p class="text-gray-300 font-semibold mt-2">Able India</p>
           </div>
         </div>
         <div class="flex items-center gap-6">
           <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Instagram_logo_2016.svg/198px-Instagram_logo_2016.svg.png?20210403190622" alt="" width={50}/>
           <div>
-            <h3 class="text-xl font-semibold mt-5">Instagram</h3>
+            <h3 class="text-xl font-semibold mt-3">Instagram</h3>
             <p class="text-gray-300 font-semibold mt-2">_.able_</p>
           </div>
         </div>
         <div class="flex items-center gap-6">
           <img src="https://images.freeimages.com/image/large-previews/9fe/x-twitter-light-grey-logo-5694251.png" alt="" width={80}/>
           <div>
-            <h3 class="text-xl font-semibold mt-5">X</h3>
+            <h3 class="text-xl font-semibold mt-3">X</h3>
             <p class="text-gray-300 font-semibold mt-2">able</p>
           </div>
         </div>
         <div class="flex items-center gap-6">
           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpf-kE5sRHkR7UBUuskYMSQytRvJSQJ8tVDzQaZSb_hg&s" alt="" width={70}/>
           <div>
-            <h3 class="text-xl font-semibold mt-5">LinkedIn</h3>
+            <h3 class="text-xl font-semibold mt-3">LinkedIn</h3>
             <p class="text-gray-300 font-semibold mt-2"></p>
           </div>
         </div>
