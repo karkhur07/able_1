@@ -10,7 +10,7 @@ const Signup = () => {
           <div className="md:max-w-md w-full sm:px-6 py-4">
             <form>
                 <div className='mb-2 flex justify-center pl-8'>
-                <img src={google} alt="" width={30} />
+                <img src={google} alt="" className='w-20 p-4' />
                     <button className='p-2'><b>Continue With Google</b></button>
                 </div>
                 <div class="relative inline-flex items-center justify-center w-full">

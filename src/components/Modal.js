@@ -17,7 +17,7 @@ export default function BasicModal() {
   const handleClose = () => setOpen(false);
 
   return (
-    <div>
+    <div className=''>
       <button onClick={handleOpen}>Apply Now</button>
       <Modal
         open={open}
