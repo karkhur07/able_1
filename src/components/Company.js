@@ -6,10 +6,13 @@ import fb from '../assets/fb.png'
 import google from '../assets/google.png'
 
 const Company = () => {
+  const customStyles = {
+    borderRadius: '50% 50% 0% 0% / 20% 20% 0% 0%'
+  }
     
   return (
-    <div className='text-white bg-black snap-start'>
-      <h1 className="text-center text-3xl max-sm:text-3xl font-bold leading-tight py-12">COMPANIES WITH ABLE</h1>
+    <div className='text-white bg-black' style={customStyles}>
+      <h1 className="text-center text-3xl max-sm:text-3xl font-bold leading-tight pb-12 pt-36">COMPANIES WITH ABLE</h1>
     <div className='h-48 pb-24 my-20 flex justify-center bg-black'>
       
     <div className='my-6 max-w-[70%] '>

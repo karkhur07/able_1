@@ -1,5 +1,4 @@
 import React from 'react'
-
 const Stats = () => {
   return (
     <div className="bg-black px-4 font-[sans-serif] text-[#333] pt-12 pb-4 snap-start">

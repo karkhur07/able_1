@@ -2,16 +2,18 @@ import React from 'react'
 import Stories from "./Stories.js";
 import Heading from "./Heading.js";
 import  Step  from "./Step.js";
-import Stats from './Stats.js';
+import Stats from './stats.js';
 import Whyus from './whyus.js';
 import Footer from './Footer.js';
 import Faq from './Faq.js';
-// import Able from './Able.js';
+import Able from './Able.js';
 import Feedback from './Feedback.js';
+import Subscribe from './Subscribe.js';
 
 const Home2 = () => {
   return (
     <div>
+       <Able/>
         <Step/>
         <Whyus/>
         <Stats/>
@@ -21,6 +23,7 @@ const Home2 = () => {
       <Heading head="FAQ'S" />
         <Faq/>
         <Heading head="SUBSCRIBE" />
+        <Subscribe/>
         <Footer /> 
     </div>
   )

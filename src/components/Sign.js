@@ -6,7 +6,7 @@ const Sign = () => {
   return (
     <div className="font-[sans-serif] text-[#333] bg-[#f6f6f7] m-0 p-0">
       <div className="min-h-screen flex flex-col items-center justify-center">
-        <div className="mb-24 bg-white grid md:grid-cols-2 items-center gap-4 max-w-4xl w-full p-4 m-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded">
+        <div className="mb-24 bg-white grid md:grid-cols-2 items-center gap-4 max-w-4xl w-full p-4 m-4 shadow-[0_2px_10px_-3px_rgba(6,81,237,0.3)] rounded-3xl">
           <div className="md:max-w-md w-full sm:px-6 py-4">
             <form>
               <div>
@@ -34,7 +34,7 @@ const Sign = () => {
                 </div>
               </div>
               <div className="mt-12 flex justify-center">
-                <button type="button" className=" w-32 shadow-xl py-2.5 px-4 text-sm font-semibold rounded text-white bg-black hover:bg-black-700 focus:outline-none">
+                <button type="button" className=" w-32 shadow-xl py-2.5 px-4 text-sm font-semibold rounded-2xl text-white bg-black hover:bg-black-700 focus:outline-none">
                   Sign in
                 </button>
               </div>

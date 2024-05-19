@@ -1,40 +1,48 @@
-import React from 'react'
-// import '../styles/Able.css'
-import  acc from '../assets/acc.png'
-import amazon from'../assets/amazon.png'
-import fb from '../assets/fb.png'
-import google from '../assets/google.png'
+import React, { useEffect, useRef } from 'react';
+import '../styles/Able.css';
+import amazon from './amazon.png'
+import google from './google.png'
+import accenture from './accenture.png'
+import apple from './apple.png'
+import facebook from './facebook.png'
+import spotify from './spotify.png'
+import zomato from './zomato.png'
 
-// const parallax = document.querySelector('.parallax');
-// const front = document.querySelector('.front-layer');
+function Able() {
 
-// const sFront = 150;
+  const objectsRef = useRef([]);
 
-// parallax.addEventListener('mousemove', e=> {
-//   const x = e.clientX;
-//   const y = e.clientY;
+  useEffect(() => {
+    function parallax(e) {
+      objectsRef.current.forEach((move) => {
+        const movingValue = move.getAttribute('data-value');
+        const x = (e.clientX * movingValue) /100 ;
+        const y = (e.clientY * movingValue)/100 ;
+        move.style.transform = `translateX(${x}px) translateY(${y}px)`;
+      });
+    }
 
-//   front.style.transform = `
-//   translate(
-//     ${x / sFront}%,
-//     ${y / sFront}%
-//   )`;
-// })
+    document.addEventListener('mousemove', parallax);
 
-const Able = () => {
+    return () => {
+      document.removeEventListener('mousemove', parallax);
+    };
+  }, []);
+
   return (
-    <>
-    <section className='parallax'>
-      <h1>able</h1>
-    <div className='front-layer'>
-      <img src={acc} alt="" />
-      <img src={amazon} alt="" />
-      <img src={fb} alt="" />
-      <img src={google} alt="" />
+
+    <div className='icons'>
+      <h1 className='text-7xl mb-12 ml-16 font-semibold'>able</h1>
+      <img className='brand-img object' data-value="-4" src={amazon} ref={(el) => (objectsRef.current[0] = el)} />
+      <img className='brand-img object' data-value="4" src={google} ref={(el) => (objectsRef.current[1] = el)} />
+      <img className='brand-img object' data-value="-9" src={accenture} ref={(el) => (objectsRef.current[2] = el)} />
+      <img className='brand-img object' data-value="-5" src={apple} ref={(el) => (objectsRef.current[3] = el)} />
+      <img className='brand-img object' data-value="6" src={facebook} ref={(el) => (objectsRef.current[4] = el)} />
+      <img className='brand-img object' data-value="4" src={spotify} ref={(el) => (objectsRef.current[5] = el)} />
+      <img className='brand-img object' data-value="6" src={zomato} ref={(el) => (objectsRef.current[6] = el)} />
     </div>
-    </section>
-    </>
-  )
+
+  );
 }
 
-export default Able
+export default Able;

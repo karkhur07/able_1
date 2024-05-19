@@ -9,6 +9,9 @@ import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 import acc from '../assets/acc.png'
+import amazon from'../assets/amazon.png'
+import fb from '../assets/fb.png'
+import google from '../assets/google.png'
 
 import { EffectCoverflow, Pagination, Navigation } from 'swiper/modules';
 import '../styles/Card.css'
@@ -45,22 +48,24 @@ function Home() {
         <div className='w-96' >
       
 
-      <div className=" sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
+      <div className=" sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-3xl shadow-xl dark:bg-white dark:border-white">
           <a href="/">
-              <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
+              <img className="mt-6 mb-3 rounded-t-lg sm:w-28" src={acc} alt="" />
           </a>
           <div className=" flex flex-col items-center ustify-center p-5">
               <a href="/">
                   <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Accenture</h5>
-              </a><div>
-              <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'>Stipend:</span>  ₹4000</p>
-              <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'> Experience:</span> Freshers</p>
-              <p className="mb-4  text-black font-normal "><span className='text-black font-semibold'>Location:</span> Banglore (Hybrid)</p>
+              </a><div className='pt-6'>
+              <p className="mb-4 text-black font-normal "><span className='text-black font-bold'>Stipend:</span>  ₹4000</p>
+              <p className="mb-4 text-black font-normal "><span className='text-black font-bold'> Experience:</span> Freshers</p>
+              <p className="mb-4  text-black font-normal "><span className='text-black font-bold'>Location:</span> Banglore (Hybrid)</p>
               </div>
+              <div className='mt-12'>
               <button className="my-5 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   <BasicModal/>
                    
               </button>
+              </div>
           </div>
       </div>
       
@@ -70,22 +75,24 @@ function Home() {
         <div className='w-96' >
       
 
-      <div className=" sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
+      <div className=" sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-3xl shadow-xl dark:bg-white dark:border-white">
           <a href="/">
-              <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
+              <img className="mt-6 mb-3 rounded-t-lg sm:w-28 " src={amazon} alt="" />
           </a>
           <div className=" flex flex-col items-center ustify-center p-5">
               <a href="/">
-                  <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Accenture</h5>
+                  <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Amazon</h5>
               </a><div>
-              <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'>Stipend:</span>  ₹4000</p>
-              <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'> Experience:</span> Freshers</p>
-              <p className="mb-4  text-black font-normal "><span className='text-black font-semibold'>Location:</span> Banglore (Hybrid)</p>
+              <p className="mb-4 text-black font-normal "><span className='text-black font-bold'>Stipend:</span>  ₹4000</p>
+              <p className="mb-4 text-black font-normal "><span className='text-black font-bold'> Experience:</span> Freshers</p>
+              <p className="mb-4  text-black font-normal "><span className='text-black font-bold'>Location:</span> Banglore (Hybrid)</p>
               </div>
+              <div className='mt-12'>
               <button className="my-5 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   <BasicModal/>
                    
               </button>
+              </div>
           </div>
       </div>
       
@@ -95,22 +102,24 @@ function Home() {
         <div className='w-96' >
       
 
-      <div className="sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
+      <div className="sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-3xl shadow-xl dark:bg-white dark:border-white">
           <a href="/">
-              <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
+              <img className="mt-6 mb-3 rounded-t-lg sm:w-28 " src={fb} alt="" />
           </a>
           <div className=" flex flex-col items-center ustify-center p-5">
               <a href="/">
-                  <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Accenture</h5>
+                  <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Facebook</h5>
               </a><div>
-              <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'>Stipend:</span>  ₹4000</p>
-              <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'> Experience:</span> Freshers</p>
-              <p className="mb-4  text-black font-normal "><span className='text-black font-semibold'>Location:</span> Banglore (Hybrid)</p>
+              <p className="mb-4 text-black font-normal "><span className='text-black font-bold'>Stipend:</span>  ₹4000</p>
+              <p className="mb-4 text-black font-normal "><span className='text-black font-bold'> Experience:</span> Freshers</p>
+              <p className="mb-4  text-black font-normal "><span className='text-black font-bold'>Location:</span> Banglore (Hybrid)</p>
               </div>
+              <div className='mt-12'>
               <button className="my-5 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   <BasicModal/>
                    
               </button>
+              </div>
           </div>
       </div>
       
@@ -120,22 +129,24 @@ function Home() {
         <div className='w-96' >
       
 
-      <div className="sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
+      <div className="sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-3xl shadow-xl dark:bg-white dark:border-white">
           <a href="/">
-              <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
+              <img className="mt-6 mb-3 rounded-t-lg sm:w-28 " src={google} alt="" />
           </a>
           <div className=" flex flex-col items-center ustify-center p-5">
               <a href="/">
-                  <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Accenture</h5>
+                  <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Google</h5>
               </a><div>
-              <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'>Stipend:</span>  ₹4000</p>
-              <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'> Experience:</span> Freshers</p>
-              <p className="mb-4  text-black font-normal "><span className='text-black font-semibold'>Location:</span> Banglore (Hybrid)</p>
+              <p className="mb-4 text-black font-normal "><span className='text-black font-bold'>Stipend:</span>  ₹4000</p>
+              <p className="mb-4 text-black font-normal "><span className='text-black font-bold'> Experience:</span> Freshers</p>
+              <p className="mb-4  text-black font-normal "><span className='text-black font-bold'>Location:</span> Banglore (Hybrid)</p>
               </div>
+              <div className='mt-12'>
               <button className="my-5 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   <BasicModal/>
                    
               </button>
+              </div>
           </div>
       </div>
       
@@ -145,22 +156,24 @@ function Home() {
         <div className='w-96' >
       
 
-      <div className="sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
+      <div className="sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-3xl shadow-xl dark:bg-white dark:border-white">
           <a href="/">
-              <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
+              <img className="mt-6 mb-3 rounded-t-lg sm:w-28 " src={acc} alt="" />
           </a>
           <div className=" flex flex-col items-center ustify-center p-5">
               <a href="/">
                   <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Accenture</h5>
               </a><div>
-              <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'>Stipend:</span>  ₹4000</p>
-              <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'> Experience:</span> Freshers</p>
-              <p className="mb-4  text-black font-normal "><span className='text-black font-semibold'>Location:</span> Banglore (Hybrid)</p>
+              <p className="mb-4 text-black font-normal "><span className='text-black font-bold'>Stipend:</span>  ₹4000</p>
+              <p className="mb-4 text-black font-normal "><span className='text-black font-bold'> Experience:</span> Freshers</p>
+              <p className="mb-4  text-black font-normal "><span className='text-black font-bold'>Location:</span> Banglore (Hybrid)</p>
               </div>
+              <div className='mt-12'>
               <button className="my-5 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   <BasicModal/>
                    
               </button>
+              </div>
           </div>
       </div>
       
@@ -170,22 +183,24 @@ function Home() {
         <div className='w-96' >
       
 
-      <div className="sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
+      <div className="sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-3xl shadow-xl dark:bg-white dark:border-white">
           <a href="/">
-              <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
+              <img className="mt-6 mb-3 rounded-t-lg sm:w-28 " src={acc} alt="" />
           </a>
           <div className=" flex flex-col items-center ustify-center p-5">
               <a href="/">
                   <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Accenture</h5>
               </a><div>
-              <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'>Stipend:</span>  ₹4000</p>
-              <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'> Experience:</span> Freshers</p>
-              <p className="mb-4  text-black font-normal "><span className='text-black font-semibold'>Location:</span> Banglore (Hybrid)</p>
+              <p className="mb-4 text-black font-normal "><span className='text-black font-bold'>Stipend:</span>  ₹4000</p>
+              <p className="mb-4 text-black font-normal "><span className='text-black font-bold'> Experience:</span> Freshers</p>
+              <p className="mb-4  text-black font-normal "><span className='text-black font-bold'>Location:</span> Banglore (Hybrid)</p>
               </div>
+              <div className='mt-12'>
               <button className="my-5 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   <BasicModal/>
                    
               </button>
+              </div>
           </div>
       </div>
       
@@ -195,22 +210,24 @@ function Home() {
         <div className='w-96' >
       
 
-      <div className="sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-lg shadow-xl dark:bg-white dark:border-white">
+      <div className="sm:h-[70vh] flex flex-col justify-center items-center w-84 bg-white border border-gray-200 rounded-3xl shadow-xl dark:bg-white dark:border-white">
           <a href="/">
-              <img className="mt-6 mb-3 rounded-t-lg " src={acc} alt="" />
+              <img className="mt-6 mb-3 rounded-t-lg sm:w-28 " src={acc} alt="" />
           </a>
           <div className=" flex flex-col items-center ustify-center p-5">
               <a href="/">
                   <h5 className="mb-8 text-3xl font-bold tracking-tight text-black dark:text-black">Accenture</h5>
               </a><div>
-              <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'>Stipend:</span>  ₹4000</p>
-              <p className="mb-4 text-black font-normal "><span className='text-black font-semibold'> Experience:</span> Freshers</p>
-              <p className="mb-4  text-black font-normal "><span className='text-black font-semibold'>Location:</span> Banglore (Hybrid)</p>
+              <p className="mb-4 text-black font-normal "><span className='text-black font-bold'>Stipend:</span>  ₹4000</p>
+              <p className="mb-4 text-black font-normal "><span className='text-black font-bold'> Experience:</span> Freshers</p>
+              <p className="mb-4  text-black font-normal "><span className='text-black font-bold'>Location:</span> Banglore (Hybrid)</p>
               </div>
+              <div className='mt-12'>
               <button className="my-5 inline-flex items-center px-3 py-2 text-sm font-medium text-center text-white bg-black rounded-lg hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 dark:bg-black dark:hover:bg-blue-700 dark:focus:ring-blue-800">
                   <BasicModal/>
                    
               </button>
+              </div>
           </div>
       </div>
       

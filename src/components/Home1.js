@@ -4,7 +4,7 @@ import Footer from "./Footer.js";
 import Testi from "./Testi.js";
 import Slogan from "./Slogan.js"
 import Company from "./Company.js";
-import Stats from "./Stats.js";
+import Stats from "./stats.js";
 
 
 import Heading from "./Heading.js";
@@ -12,6 +12,7 @@ import Heading1 from './Heading1.js'
 import Faq from "./Faq.js";
 import Community from './Community.js';
 import Hire from './Hire.js';
+import Subscribe from './Subscribe.js';
 
 const Home_1 = () => {
   return (
@@ -21,7 +22,6 @@ const Home_1 = () => {
         <Stats/>
         <Hire/>
         <Company />
-        <Heading head="#InternshipZaruriHai"/>
         <Slogan/>
         <Heading head="JOIN THE COMMUNITY"/>
         <Community/>
@@ -30,6 +30,7 @@ const Home_1 = () => {
         <Heading head="FAQ'S" />
         <Faq/>
         <Heading head="SUBSCRIBE" />
+        <Subscribe/>
         <Footer />         
     </div>
   )

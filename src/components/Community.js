@@ -26,7 +26,7 @@ const Community = () => {
           <p className="px-2 py-1"><button>Telegram Community</button></p>
           </div>
           <div className="card-actions justify-end">
-            <div className="badge badge-outline p-4">Know More</div>
+            <div className="badge badge-outline p-4"><button>Know More</button></div>
           </div>
         </div>
       </div>
@@ -48,7 +48,7 @@ const Community = () => {
             <button className="mx-1 btn bg-black text-white">Apply Now</button>
           </div>
           <div className="card-actions justify-end">
-            <div className="badge badge-outline p-4">Know More</div>
+            <div className="badge badge-outline p-4"><button>Know More</button></div>
           </div>
         </div>
       </div>
