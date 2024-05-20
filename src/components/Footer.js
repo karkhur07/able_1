@@ -17,21 +17,21 @@
           <img src={facebook} alt="" width={50}/>
           <div>
             <h1 class="text-xl font-semibold mt-3">Facebook</h1>
-            <p class="text-gray-300 font-semibold mt-2">Able India</p>
+            <p class="text-gray-300 font-semibold mt-2"><a href="https://www.facebook.com/share/yozUBvicDNb6C8Jr/?mibextid=qi2Omg"><button>Able India</button></a></p>
           </div>
         </div>
         <div class="flex items-center gap-6">
           <img src={insta} alt="" width={50}/>
           <div>
             <h3 class="text-xl font-semibold mt-3">Instagram</h3>
-            <p class="text-gray-300 font-semibold mt-2">_.able_</p>
+            <p class="text-gray-300 font-semibold mt-2"><a href="https://www.instagram.com/p/C6wPNH-PX95/?igsh=MTN4MHlvYjY1b3pkbg=="><button>_.able_</button></a></p>
           </div>
         </div>
         <div class="flex items-center gap-6">
           <img src="https://images.freeimages.com/image/large-previews/9fe/x-twitter-light-grey-logo-5694251.png" alt="" width={80}/>
           <div>
             <h3 class="text-xl font-semibold mt-3">X</h3>
-            <p class="text-gray-300 font-semibold mt-2">able</p>
+            <p class="text-gray-300 font-semibold mt-2"><a href="https://x.com/Able_india?t=gSjDJ1rtAXP9RsWAAI4dXQ&s=08"><button>able</button></a></p>
           </div>
         </div>
         <div class="flex items-center gap-6">

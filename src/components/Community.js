@@ -19,11 +19,11 @@ const Community = () => {
           </figure>
           <div className="flex">
           <img src="https://cdn.icon-icons.com/icons2/843/PNG/512/Whatsapp_icon-icons.com_67044.png" alt=""className="w-8 "/>
-          <p className="px-2 py-1"><button>Whatsapp Community</button></p>
+          <p className="px-2 py-1"><a href="https://whatsapp.com/channel/0029VaZj2IEAzNbnfAp4hc2x"><button>Whatsapp Community</button></a></p>
           </div>
           <div className="flex">
             <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4KHspeICALJLtrG719HTrRoP9oaGUbreuXFKkLQiAng&s" alt="" className="w-8 "/>
-          <p className="px-2 py-1"><button>Telegram Community</button></p>
+          <p className="px-2 py-1"><a href="https://t.me/ableinternship"><button>Telegram Community</button></a></p>
           </div>
           <div className="card-actions justify-end">
             <div className="badge badge-outline p-4"><button>Know More</button></div>
