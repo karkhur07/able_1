@@ -2,7 +2,7 @@ import React from 'react'
 
 const Subscribe = () => {
   return (
-    <div className='flex justify-center my-10 mb-20 mt-16'>
+    <div className='flex justify-center mt-28 mb-32'>
 <form className='sm:w-1/2 w-96'>   
     <label for="search" className="mb-2 text-sm font-medium text-gray-900 sr-only dark:text-white">Search</label>
     <div className="relative">

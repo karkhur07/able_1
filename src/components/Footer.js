@@ -1,13 +1,13 @@
 
     import React from 'react'
-    import insta from './insta.png'
-    import facebook from './fb.png'
+    import insta from '../assets/insta.png'
+    import facebook from '../assets/fb.png'
     
     const Footer = () => {
       return (
        <>
 <footer className="bg-[#272727]">
-    <div className="pl-4 mt-6 pt-8 text-white font-medium">
+    <div className="snap-start pl-4 sm:pl-8 mt-6 pt-8 text-white font-medium">
         <h1 className='sm:text-4xl text-2xl'>Follow Us For  Updates</h1>
     </div>
     <div>

@@ -1,12 +1,12 @@
 import React, { useEffect, useRef } from 'react';
 import '../styles/Able.css';
-import amazon from './amazon.png'
-import google from './google.png'
-import accenture from './accenture.png'
-import facebook from './facebook.png'
-import apple from './apple.png'
-import spotify from './spotify.png'
-import zomato from './zomato.png'
+import amazon from '../assets/amazon.png'
+import google from '../assets/google.png'
+import accenture from '../assets/accenture.png'
+import facebook from '../assets/facebook.png'
+import apple from '../assets/apple.png'
+import spotify from '../assets/spotify.png'
+import zomato from '../assets/zomato.png'
 
 function Able() {
 
@@ -31,7 +31,7 @@ function Able() {
 
   return (
 
-    <div className='icons'>
+    <div className='icons snap-start'>
       <h1 className='text-7xl mb-12 ml-16 font-semibold'>able</h1>
       <img className='brand-img object' data-value="-4" src={amazon} ref={(el) => (objectsRef.current[0] = el)} alt=''/>
       <img className='brand-img object' data-value="4" src={google} ref={(el) => (objectsRef.current[1] = el)} alt=''/>

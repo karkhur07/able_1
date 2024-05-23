@@ -1,5 +1,5 @@
 import React from 'react'
-import Cell from './cell.jpg'
+import Cell from '../assets/cell.jpg'
 // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Sign = () => {

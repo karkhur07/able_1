@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className="navbar bg-base-100">
+    <div className="snap-start navbar bg-base-100">
   <div className="navbar-start">
     <div className="dropdown">
       <div tabIndex={0} role="button" className="btn btn-ghost lg:hidden">
@@ -11,8 +11,8 @@ const Navbar = () => {
       </div>
       <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
       <li><Link to='/'>Home</Link></li>
-      <li><Link to='/interns'>For interns</Link></li>
-      <li><Link to='/company'>For companies</Link></li>
+      <li><Link to='/'>For interns</Link></li>
+      <li><Link to='/hire'>For companies</Link></li>
       <li><Link to='/about'>About</Link></li>
       <li><Link to='/contact'>Contact us</Link></li>
       </ul>
@@ -24,16 +24,16 @@ const Navbar = () => {
         </div>
   </div>
   <div className="navbar-center hidden lg:flex p-4">
-    <ul className="menu menu-horizontal px-1">
+    <ul className="menu menu-horizontal px-1 md:text-xl">
       <li><Link to='/'>Home</Link></li>
-      <li><Link to='/interns'>For interns</Link></li>
-      <li><Link to='/company'>For companies</Link></li>
+      <li><Link to='/'>For interns</Link></li>
+      <li><Link to='/hire'>For companies</Link></li>
       <li><Link to='/about'>About</Link></li>
       <li><Link to='/contact'>Contact us</Link></li>
     </ul>
   </div>
   <div className="navbar-end flex gap-4">
-    <Link to='/login' className="btn bg-black text-white rounded-2xl w-20">Login</Link>
+    <Link to='/login' disabled className="btn bg-black text-white rounded-2xl w-20">Login</Link>
     <Link to='/signup' className="btn bg-black text-white rounded-2xl w-20">Signup</Link>
   </div>
 </div>

@@ -3,13 +3,13 @@ import React from 'react'
 const whyus = () => {
   return (
     <>
-    <div className="mt-6 font-[sans-serif] bg-black text-white h-[72vh]">
-            <div className=" text-center max-w-3xl mx-auto mb-24 ">
+    <div className=" snap-start font-[sans-serif] bg-black text-white pb-24 md:h-[100vh]">
+            <div className=" text-center md:w-4xl mx-auto mb-24 ">
                 <h2 className="text-5xl font-bold pt-16">WHY US ?</h2>
             </div>
             <div className="justify-center grid md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             <div className=''>
-      <div className='group h-96 w-80 [perspective:1000px]'>
+      <div className='group h-[60vh] w-96'>
         <div className='relative h-full w-full rounded-3xl bg-white text-black shadow-xl [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] [backface-visibility:hidden] transition-all duration-1000'>
             <div className='absolute inset-0 text-center mt-32'>
                 <h1>Why us</h1>
@@ -24,7 +24,7 @@ const whyus = () => {
       </div>
     </div>
     <div className=''>
-      <div className='group h-96 w-80 [perspective:1000px]'>
+      <div className='group h-[60vh] w-96 '>
         <div className='relative h-full w-full rounded-3xl shadow-xl bg-white text-black [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] [backface-visibility:hidden] transition-all duration-1000'>
             <div className='absolute inset-0 text-center mt-32'>
                 <h1>Why us</h1>
@@ -39,7 +39,7 @@ const whyus = () => {
       </div>
     </div>
     <div className=''>
-      <div className='group h-96 w-80 [perspective:1000px]'>
+      <div className='group h-[60vh] w-96 '>
         <div className='relative h-full w-full rounded-3xl bg-white text-black shadow-xl [transform-style:preserve-3d] group-hover:[transform:rotateY(180deg)] [backface-visibility:hidden] transition-all duration-1000'>
             <div className='absolute inset-0 text-center mt-32'>
                 <h1>Why us</h1>

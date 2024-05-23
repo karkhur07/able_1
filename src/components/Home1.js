@@ -23,7 +23,6 @@ const Home_1 = () => {
         <Hire/>
         <Company />
         <Slogan/>
-        <Heading head="JOIN THE COMMUNITY"/>
         <Community/>
         <Heading head="TESTIMONIALS" />
         <Testi />

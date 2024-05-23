@@ -12,11 +12,11 @@ import { ServiceData } from "./constant";
 
 const ActiveSlider = () => {
   return (
-    <div className="relative flex items-center justify-center flex-col h-[80vh] ">
+    <div className="relative flex items-center justify-center flex-col h-[70vh] md:pt-32 md:mb-40 ">
       <Swiper
         breakpoints={{
           340: {
-            slidesPerView: 2,
+            slidesPerView: 1,
             spaceBetween: 30,
           },
           700: {
@@ -30,14 +30,8 @@ const ActiveSlider = () => {
         // pagination={{
         //   clickable: true,
         // }}
-        speed={2000}
-        autoplay={{
-            delay:1000,
-            disableOnInteraction:false
-
-        }}
         modules={[Autoplay, FreeMode, Pagination]}
-        className="max-w-[80%] lg:max-w-[80%]"
+        className="md:w-[80vw] w-[90vw] md:h-[70vh]"
       >
         {ServiceData.map((item) => (
           <SwiperSlide key={item.title}>
@@ -47,7 +41,7 @@ const ActiveSlider = () => {
 
 
 
-<a href="/" class="text-black block max-w-sm  sm p-6 bg-white border border-gray-100 shadow-xl rounded-3xl hover:bg-gray-100 ">
+<a href="/" class="text-black block w-lg  sm p-6 bg-white border border-gray-100 shadow-xl rounded-3xl hover:bg-gray-100 ">
 
 <svg  xmlns="http://www.w3.org/2000/svg" width="38" height="38" fill="currentColor" class="bi bi-quote" viewBox="0 0 16 16">
   <path d="M12 12a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1h-1.388q0-.527.062-1.054.093-.558.31-.992t.559-.683q.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 9 7.558V11a1 1 0 0 0 1 1zm-6 0a1 1 0 0 0 1-1V8.558a1 1 0 0 0-1-1H4.612q0-.527.062-1.054.094-.558.31-.992.217-.434.559-.683.34-.279.868-.279V3q-.868 0-1.52.372a3.3 3.3 0 0 0-1.085.992 4.9 4.9 0 0 0-.62 1.458A7.7 7.7 0 0 0 3 7.558V11a1 1 0 0 0 1 1z"/>

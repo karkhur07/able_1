@@ -13,7 +13,7 @@ import Signup from './components/Signup.js'
 function App() {
   return (
     <>
-      <div className="">
+      <div className="snap-y snap-mandatory overflow-auto h-screen w-screen">
   
          <BrowserRouter>
          <Navbar />

@@ -12,7 +12,7 @@ import { ServiceData } from "./constant";
 
 const Stories = () => {
   return (
-    <div className="relative flex items-center justify-center flex-col h-[60vh] bg-white ">
+    <div className="relative flex items-center justify-center flex-col h-[100vh] bg-white ">
       <Swiper
         breakpoints={{
           340: {
@@ -30,14 +30,8 @@ const Stories = () => {
         // pagination={{
         //   clickable: true,
         // }}
-        speed={2000}
-        autoplay={{
-            delay:1000,
-            disableOnInteraction:false
-
-        }}
         modules={[Autoplay, FreeMode, Pagination]}
-        className="max-w-[80%] lg:max-w-[80%]"
+        className="max-w-[80%] md:h-[60%] lg:max-w-[80%]"
       >
         {ServiceData.map((item) => (
           <SwiperSlide key={item.title}>
@@ -47,7 +41,7 @@ const Stories = () => {
 
 
 
-<a href="/" class="h-64 text-black block max-w-sm  sm p-6 bg-white border border-gray-100 shadow-xl rounded-lg hover:bg-gray-100 ">
+<a href="/" class="h-96 text-black block max-w-sm  sm p-6 bg-white border border-gray-100 shadow-xl rounded-lg hover:bg-gray-100 ">
 <p className="mt-1 text-xs sm:text-lg font-normal text-gray-500 ">{item.content}</p>
 <h5 className="mt-3 text-black text-lg sm:text-2xl font-semibold tracking-tight text-dark:text-white">{item.title}</h5>
 <p className="font-normal text-xs sm:text-lg text-gray-700 dark:text-gray-400">Founder</p>

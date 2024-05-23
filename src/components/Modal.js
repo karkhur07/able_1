@@ -4,6 +4,8 @@ import Modal from '@mui/material/Modal';
 import MediaCard from '../components/Card';
 
 const style = {
+  borderRadius: 8,
+  backgroundColor: 'white',
   position: 'absolute',
   top: '50%',
   left: '50%',
